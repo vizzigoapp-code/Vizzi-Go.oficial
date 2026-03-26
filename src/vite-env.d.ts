@@ -1,10 +1,10 @@
-/// <tipos de referência="vite/client" />
+/// <reference types="vite/client" />
 
 interface ImportMetaEnv {
-leituraVITE_SUPABASE_URL: string
-leitura VITE_SUPABASE_ANON_KEY: string
+  readonly VITE_SUPABASE_URL: string;
+  readonly VITE_SUPABASE_ANON_KEY: string;
 }
 
 interface ImportMeta {
-leitura env: ImportMetaEnv
+  readonly env: ImportMetaEnv;
 }
